@@ -9,10 +9,11 @@ try {
    
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
       
-        $statment = $conn->prepare('INSERT INTO blog(blog_content, blog_title) VALUES (:blog_content, :blog_title)');
+        $statment = $conn->prepare('INSERT INTO blog(blog_content, blog_title,user_id) VALUES (:blog_content, :blog_title,:user_id)');
         $statment->bindParam(':blog_content', $editor);
         $statment->bindParam(':blog_title', $title);
-      
+        $statment->bindParam(':user_id', $_SESSION["user_id"]);
+
         $statment->execute();
 
     }
