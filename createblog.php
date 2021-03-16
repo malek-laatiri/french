@@ -3,6 +3,7 @@ session_start();
 ?>
 <!doctype html>
 <html class="no-js" lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -78,11 +79,12 @@ session_start();
                                 <a href="javascript:void(0)" aria-expanded="true"><i class="ti-palette"></i><span>Compte'rendu</span></a>
                                 <ul class="collapse">
                                     <li><a href="createCompteRendu.php">new Compte rendu</a></li>
-                                    
+
                                 </ul>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-slice"></i><span>note Service</span></a>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-slice"></i><span>note
+                                        Service</span></a>
                                 <ul class="collapse">
                                     <li><a href="createnoteService.php">new note service</a></li>
                                     <li><a href="readNoteService.php">all note service</a></li>
@@ -96,11 +98,12 @@ session_start();
                                     <li><a href="readBrainstorming.php">all ideas</a></li>
                                 </ul>
                             </li>
-                            <li><a href="createNewsletter.php"><i class="ti-map-alt"></i> <span>news letter</span></a></li>
+                            <li><a href="createNewsletter.php"><i class="ti-map-alt"></i> <span>news letter</span></a>
+                            </li>
                             <li><a href="createEmail.php"><i class="ti-receipt"></i> <span>Emailing</span></a></li>
-                           
-                          
-                          
+
+
+
                         </ul>
                     </nav>
                 </div>
@@ -136,7 +139,8 @@ session_start();
                                     <span>2</span>
                                 </i>
                                 <div class="dropdown-menu bell-notify-box notify-box">
-                                    <span class="notify-title">You have 3 new notifications <a href="#">view all</a></span>
+                                    <span class="notify-title">You have 3 new notifications <a href="#">view
+                                            all</a></span>
                                     <div class="nofity-list">
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb"><i class="ti-key btn-danger"></i></div>
@@ -193,7 +197,8 @@ session_start();
                             <li class="dropdown">
                                 <i class="fa fa-envelope-o dropdown-toggle" data-toggle="dropdown"><span>3</span></i>
                                 <div class="dropdown-menu notify-box nt-enveloper-box">
-                                    <span class="notify-title">You have 3 new notifications <a href="#">view all</a></span>
+                                    <span class="notify-title">You have 3 new notifications <a href="#">view
+                                            all</a></span>
                                     <div class="nofity-list">
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
@@ -291,7 +296,8 @@ session_start();
                     <div class="col-sm-6 clearfix">
                         <div class="user-profile pull-right">
                             <img class="avatar user-thumb" src="assets/images/author/avatar.png" alt="avatar">
-                            <h4 class="user-name dropdown-toggle" data-toggle="dropdown"><?php echo $_SESSION["user_username"]?><i class="fa fa-angle-down"></i></h4>
+                            <h4 class="user-name dropdown-toggle" data-toggle="dropdown">
+                                <?php echo $_SESSION["user_username"] ?><i class="fa fa-angle-down"></i></h4>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Message</a>
                                 <a class="dropdown-item" href="#">Settings</a>
@@ -303,29 +309,34 @@ session_start();
             </div>
             <!-- page title area end -->
             <div class="main-content-inner">
-            <div class="main-content-inner">
-                <form action="insertBlog.php" method="post">
-                    <div class="form-group"> <label for="title" class="col-form-label">Blog Title</label>
-
-                        <input type="text" name="title" id="example-text-input" class="form-control">
+                <div class="main-content-inner">
+                    <div class="col-12 mt-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <form action="insertBlog.php" method="post">
+                                    <div class="form-group">
+                                        <label for="title" class="col-form-label">Blog Title</label>
+                                        <input type="text" name="title" id="example-text-input" class="form-control">
+                                    </div>
+                                    <div class="form-group"> <label for="title" class="col-form-label">Blog
+                                            Content</label>
+                                        <textarea class="ckeditor" name="editor"></textarea>
+                                    </div>
+                                    <div class="form-group"> <input type="submit" value="Add Blog" class="btn btn-primary mt-4 pr-4 pl-4">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
-                    <div class="form-group"> <label for="title" class="col-form-label">Blog Content</label>
-                        <textarea class="ckeditor" name="editor"></textarea>
-                    </div>
-                    <div class="form-group"> <input type="submit" value="Add Blog"
-                            class="btn btn-primary mt-4 pr-4 pl-4">
-                    </div>
-                </form>
-
-            </div>
-               
+                </div>
             </div>
         </div>
         <!-- main content area end -->
         <!-- footer area start-->
         <footer>
             <div class="footer-area">
-                <p>© Copyright 2018. All right reserved. Template by <a href="https://colorlib.com/wp/">Colorlib</a>.</p>
+                <p>© Copyright 2018. All right reserved. Template by <a href="https://colorlib.com/wp/">Colorlib</a>.
+                </p>
             </div>
         </footer>
         <!-- footer area end-->
@@ -526,8 +537,8 @@ session_start();
     <!-- start zingchart js -->
     <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
     <script>
-    zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
-    ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9", "ee6b7db5b51705a13dc2339db3edaf6d"];
+        zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
+        ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9", "ee6b7db5b51705a13dc2339db3edaf6d"];
     </script>
     <!-- all line chart activation -->
     <script src="assets/js/line-chart.js"></script>
@@ -539,8 +550,3 @@ session_start();
 </body>
 
 </html>
-
-
-
-
-

@@ -1,4 +1,6 @@
 <?php
+include 'conn.php';
+
 $upload_dir = "uploads/";
 $img = $_POST['hidden_data'];
 $img = str_replace('data:image/png;base64,', '', $img);

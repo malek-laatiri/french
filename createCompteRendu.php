@@ -302,7 +302,14 @@ session_start();
             </div>
             <!-- page title area end -->
             <div class="main-content-inner">
-                <!-- changes -->
+            <div class="col-12 mt-5">
+            <div class="card">
+            <div class="card-body">
+                            <!-- changes -->
+
+            </div>
+            </div>
+            </div>
                
             </div>
         </div>

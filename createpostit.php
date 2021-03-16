@@ -312,7 +312,10 @@ session_start();
             </div>
             <!-- page title area end -->
             <div class="main-content-inner">
-                <form action="insertPostit.php" method="post">
+            <div class="col-12 mt-5">
+            <div class="card">
+            <div class="card-body">
+            <form action="insertPostit.php" method="post">
                     <div class="form-group">
                         <label for="postit_title" class="col-form-label">title</label>
                         <input type="text" name="postit_title" id="" class="form-control">
@@ -344,10 +347,15 @@ session_start();
 
 
 
-                    <divclass="form-group"> <input type="submit" value="post it" class="btn btn-primary mt-4 pr-4 pl-4">
+                    <div class="form-group"> <input type="submit" value="post it" class="btn btn-primary mt-4 pr-4 pl-4">
             </div>
 
             </form>
+
+            </div>
+            </div>
+            </div>
+                
 
         </div>
     </div>

@@ -314,7 +314,10 @@ session_start();
             </div>
             <!-- page title area end -->
             <div class="main-content-inner">
-                <form action="sendNewsletter.php" method="post">
+            <div class="col-12 mt-5">
+            <div class="card">
+            <div class="card-body">
+            <form action="sendNewsletter.php" method="post">
                     <div class="form-group">
                     <label for="title" class="col-form-label">Newsletter title</label>
                         <input type="text" class="form-control" name="title" id="title">
@@ -328,6 +331,10 @@ session_start();
                         <input type="submit" class="btn btn-primary mt-4 pr-4 pl-4" value="Send Newsletter">
                     </div>
                 </form>
+            </div>
+            </div>
+            </div>
+                
 
             </div>
         </div>

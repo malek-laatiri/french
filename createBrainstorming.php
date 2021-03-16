@@ -312,7 +312,10 @@ session_start();
             </div>
             <!-- page title area end -->
             <div class="main-content-inner">
-                <form action="insertBrainstorming.php" method="post">
+            <div class="col-12 mt-5">
+            <div class="card">
+            <div class="card-body">
+            <form action="insertBrainstorming.php" method="post">
                     <div class="form-group"><label for="content" for="example-month-input">Your idea</label>
                         <input type="text" class="form-control" name="content" id="">
                     </div>
@@ -320,6 +323,10 @@ session_start();
                     </div>
 
                 </form>
+            </div>
+            </div>
+            </div>
+               
 
             </div>
         </div>
