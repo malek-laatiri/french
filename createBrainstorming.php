@@ -50,11 +50,11 @@ session_start();
                 <div class="menu-inner">
                     <nav>
                         <ul class="metismenu" id="menu">
-                            <li class="active">
+                            <li>
                                 <a href="javascript:void(0)" aria-expanded="true"><i
                                         class="ti-dashboard"></i><span>Blog</span></a>
                                 <ul class="collapse">
-                                    <li class="active"><a href="createblog.php">Create Blog</a></li>
+                                    <li><a href="createblog.php">Create Blog</a></li>
                                     <li><a href="readBlog.php">Read all Blog posts</a></li>
                                 </ul>
                             </li>
@@ -93,11 +93,11 @@ session_start();
                                     <li><a href="readNoteService.php">all note service</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="active">
                                 <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-table"></i>
                                     <span>BrianStorming</span></a>
                                 <ul class="collapse">
-                                    <li><a href="createBrainstorming.php">Post new ideas</a></li>
+                                    <li class="active"><a href="createBrainstorming.php">Post new ideas</a></li>
                                     <li><a href="readBrainstorming.php">all ideas</a></li>
                                 </ul>
                             </li>

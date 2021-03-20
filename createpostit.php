@@ -50,7 +50,7 @@ session_start();
                 <div class="menu-inner">
                     <nav>
                         <ul class="metismenu" id="menu">
-                            <li class="active">
+                            <li>
                                 <a href="javascript:void(0)" aria-expanded="true"><i
                                         class="ti-dashboard"></i><span>Blog</span></a>
                                 <ul class="collapse">
@@ -58,12 +58,12 @@ session_start();
                                     <li><a href="readBlog.php">Read all Blog posts</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="active">
                                 <a href="javascript:void(0)" aria-expanded="true"><i
                                         class="ti-layout-sidebar-left"></i><span>PostIt
                                     </span></a>
                                 <ul class="collapse">
-                                    <li><a href="createpostit.php">New Post it</a></li>
+                                    <li class="active"><a href="createpostit.php">New Post it</a></li>
                                     <li><a href="readPostit.php">my current post it</a></li>
                                     <li><a href="readAllPostit.php">All my post it's</a></li>
 

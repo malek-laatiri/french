@@ -52,11 +52,11 @@ session_start();
                 <div class="menu-inner">
                     <nav>
                         <ul class="metismenu" id="menu">
-                            <li class="active">
+                            <li>
                                 <a href="javascript:void(0)" aria-expanded="true"><i
                                         class="ti-dashboard"></i><span>Blog</span></a>
                                 <ul class="collapse">
-                                    <li class="active"><a href="createblog.php">Create Blog</a></li>
+                                    <li><a href="createblog.php">Create Blog</a></li>
                                     <li><a href="readBlog.php">Read all Blog posts</a></li>
                                 </ul>
                             </li>
@@ -103,7 +103,8 @@ session_start();
                                     <li><a href="readBrainstorming.php">all ideas</a></li>
                                 </ul>
                             </li>
-                            <li><a href="createNewsletter.php"><i class="ti-map-alt"></i> <span>news letter</span></a>
+                            <li class="active"><a href="createNewsletter.php"><i class="ti-map-alt"></i> <span>news
+                                        letter</span></a>
                             </li>
                             <li><a href="createEmail.php"><i class="ti-receipt"></i> <span>Emailing</span></a></li>
 
@@ -314,27 +315,27 @@ session_start();
             </div>
             <!-- page title area end -->
             <div class="main-content-inner">
-            <div class="col-12 mt-5">
-            <div class="card">
-            <div class="card-body">
-            <form action="sendNewsletter.php" method="post">
-                    <div class="form-group">
-                    <label for="title" class="col-form-label">Newsletter title</label>
-                        <input type="text" class="form-control" name="title" id="title">
-                    </div>
-                    <div class="form-group">
-                    <label for="title" class="col-form-label">Newsletter content</label>
+                <div class="col-12 mt-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <form action="sendNewsletter.php" method="post">
+                                <div class="form-group">
+                                    <label for="title" class="col-form-label">Newsletter title</label>
+                                    <input type="text" class="form-control" name="title" id="title">
+                                </div>
+                                <div class="form-group">
+                                    <label for="title" class="col-form-label">Newsletter content</label>
 
-                        <textarea class="ckeditor" class="form-control" name="editor"></textarea>
+                                    <textarea class="ckeditor" class="form-control" name="editor"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" class="btn btn-primary mt-4 pr-4 pl-4" value="Send Newsletter">
+                                </div>
+                            </form>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <input type="submit" class="btn btn-primary mt-4 pr-4 pl-4" value="Send Newsletter">
-                    </div>
-                </form>
-            </div>
-            </div>
-            </div>
-                
+                </div>
+
 
             </div>
         </div>

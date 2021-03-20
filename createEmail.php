@@ -17,7 +17,8 @@ session_start();
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/slicknav.min.css">
     <!-- amchart css -->
-    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css"
+        media="all" />
     <!-- others css -->
     <link rel="stylesheet" href="assets/css/typography.css">
     <link rel="stylesheet" href="assets/css/default-css.css">
@@ -25,6 +26,8 @@ session_start();
     <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- modernizr css -->
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="ckeditor/ckeditor_4.16.0_standard/ckeditor/ckeditor.js"></script>
+
 </head>
 
 <body>
@@ -49,15 +52,17 @@ session_start();
                 <div class="menu-inner">
                     <nav>
                         <ul class="metismenu" id="menu">
-                            <li class="active">
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-dashboard"></i><span>Blog</span></a>
+                            <li>
+                                <a href="javascript:void(0)" aria-expanded="true"><i
+                                        class="ti-dashboard"></i><span>Blog</span></a>
                                 <ul class="collapse">
-                                    <li class="active"><a href="createblog.php">Create Blog</a></li>
+                                    <li><a href="createblog.php">Create Blog</a></li>
                                     <li><a href="readBlog.php">Read all Blog posts</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-layout-sidebar-left"></i><span>PostIt
+                                <a href="javascript:void(0)" aria-expanded="true"><i
+                                        class="ti-layout-sidebar-left"></i><span>PostIt
                                     </span></a>
                                 <ul class="collapse">
                                     <li><a href="createpostit.php">New Post it</a></li>
@@ -67,21 +72,24 @@ session_start();
                                 </ul>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-pie-chart"></i><span>Meeting</span></a>
+                                <a href="javascript:void(0)" aria-expanded="true"><i
+                                        class="ti-pie-chart"></i><span>Meeting</span></a>
                                 <ul class="collapse">
                                     <li><a href="createReunion.php">new meeting</a></li>
                                     <li><a href="readReunion.php">all meetings</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-palette"></i><span>Compte'rendu</span></a>
+                                <a href="javascript:void(0)" aria-expanded="true"><i
+                                        class="ti-palette"></i><span>Compte'rendu</span></a>
                                 <ul class="collapse">
                                     <li><a href="createCompteRendu.php">new Compte rendu</a></li>
-                                    
+
                                 </ul>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-slice"></i><span>note Service</span></a>
+                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-slice"></i><span>note
+                                        Service</span></a>
                                 <ul class="collapse">
                                     <li><a href="createnoteService.php">new note service</a></li>
                                     <li><a href="readNoteService.php">all note service</a></li>
@@ -95,11 +103,13 @@ session_start();
                                     <li><a href="readBrainstorming.php">all ideas</a></li>
                                 </ul>
                             </li>
-                            <li><a href="createNewsletter.php"><i class="ti-map-alt"></i> <span>news letter</span></a></li>
-                            <li><a href="createEmail.php"><i class="ti-receipt"></i> <span>Emailing</span></a></li>
-                           
-                          
-                          
+                            <li><a href="createNewsletter.php"><i class="ti-map-alt"></i> <span>news letter</span></a>
+                            </li>
+                            <li class="active"><a href="createEmail.php"><i class="ti-receipt active"></i>
+                                    <span>Emailing</span></a></li>
+
+
+
                         </ul>
                     </nav>
                 </div>
@@ -135,7 +145,8 @@ session_start();
                                     <span>2</span>
                                 </i>
                                 <div class="dropdown-menu bell-notify-box notify-box">
-                                    <span class="notify-title">You have 3 new notifications <a href="#">view all</a></span>
+                                    <span class="notify-title">You have 3 new notifications <a href="#">view
+                                            all</a></span>
                                     <div class="nofity-list">
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb"><i class="ti-key btn-danger"></i></div>
@@ -192,7 +203,8 @@ session_start();
                             <li class="dropdown">
                                 <i class="fa fa-envelope-o dropdown-toggle" data-toggle="dropdown"><span>3</span></i>
                                 <div class="dropdown-menu notify-box nt-enveloper-box">
-                                    <span class="notify-title">You have 3 new notifications <a href="#">view all</a></span>
+                                    <span class="notify-title">You have 3 new notifications <a href="#">view
+                                            all</a></span>
                                     <div class="nofity-list">
                                         <a href="#" class="notify-item">
                                             <div class="notify-thumb">
@@ -290,7 +302,8 @@ session_start();
                     <div class="col-sm-6 clearfix">
                         <div class="user-profile pull-right">
                             <img class="avatar user-thumb" src="assets/images/author/avatar.png" alt="avatar">
-                            <h4 class="user-name dropdown-toggle" data-toggle="dropdown"><?php echo $_SESSION["user_username"]?><i class="fa fa-angle-down"></i></h4>
+                            <h4 class="user-name dropdown-toggle" data-toggle="dropdown">
+                                <?php echo $_SESSION["user_username"]?><i class="fa fa-angle-down"></i></h4>
                             <div class="dropdown-menu">
                                 <a class="dropdown-item" href="#">Message</a>
                                 <a class="dropdown-item" href="#">Settings</a>
@@ -302,22 +315,40 @@ session_start();
             </div>
             <!-- page title area end -->
             <div class="main-content-inner">
-            <div class="col-12 mt-5">
-            <div class="card">
-            <div class="card-body">
-                            <!-- changes -->
+                <div class="col-12 mt-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <form action="sendNewsletter.php" method="post">
+                                <div class="form-group">
+                                    <label for="title" class="col-form-label">to:</label>
+                                    <input type="text" class="form-control" name="to" id="title">
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject" class="col-form-label">subject:</label>
+                                    <input type="text" class="form-control" name="subject" id="title">
+                                </div>
+                                <div class="form-group">
+                                    <label for="editor" class="col-form-label">Message</label>
 
-            </div>
-            </div>
-            </div>
-               
+                                    <textarea class="ckeditor" class="form-control" name="editor"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" class="btn btn-primary mt-4 pr-4 pl-4" value="Send Newsletter">
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
         <!-- main content area end -->
         <!-- footer area start-->
         <footer>
             <div class="footer-area">
-                <p>© Copyright 2018. All right reserved. Template by <a href="https://colorlib.com/wp/">Colorlib</a>.</p>
+                <p>© Copyright 2018. All right reserved. Template by <a href="https://colorlib.com/wp/">Colorlib</a>.
+                </p>
             </div>
         </footer>
         <!-- footer area end-->

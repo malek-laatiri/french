@@ -49,10 +49,10 @@ session_start();
                 <div class="menu-inner">
                     <nav>
                         <ul class="metismenu" id="menu">
-                            <li class="active">
+                            <li>
                                 <a href="javascript:void(0)" aria-expanded="true"><i class="ti-dashboard"></i><span>Blog</span></a>
                                 <ul class="collapse">
-                                    <li class="active"><a href="createblog.php">Create Blog</a></li>
+                                    <li><a href="createblog.php">Create Blog</a></li>
                                     <li><a href="readBlog.php">Read all Blog posts</a></li>
                                 </ul>
                             </li>
@@ -66,10 +66,10 @@ session_start();
 
                                 </ul>
                             </li>
-                            <li>
+                            <li class="active">
                                 <a href="javascript:void(0)" aria-expanded="true"><i class="ti-pie-chart"></i><span>Meeting</span></a>
                                 <ul class="collapse">
-                                    <li><a href="createReunion.php">new meeting</a></li>
+                                    <li class="active"><a href="createReunion.php">new meeting</a></li>
                                     <li><a href="readReunion.php">all meetings</a></li>
                                 </ul>
                             </li>
