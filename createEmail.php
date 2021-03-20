@@ -318,7 +318,7 @@ session_start();
                 <div class="col-12 mt-5">
                     <div class="card">
                         <div class="card-body">
-                            <form action="sendNewsletter.php" method="post">
+                            <form action="sendEmail.php" method="post">
                                 <div class="form-group">
                                     <label for="title" class="col-form-label">to:</label>
                                     <input type="text" class="form-control" name="to" id="title">
