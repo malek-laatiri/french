@@ -270,15 +270,7 @@
             </div>
         </div>
     <!--Contact_section end -->
-    <div class="copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                   <p class="copyright_text">© 2019 All Rights Reserved. <a href="https://php.design">Free Website Templates</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
+ 
       <!-- Javascript files-->
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>
