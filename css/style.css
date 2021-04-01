@@ -154,7 +154,7 @@ a {
 	width: 100%;
 	width: 100%;
 	float: left;
-	background-color: #072833;
+	background-color: #15457c;
 	padding-bottom: 10px;
 	padding-top: 10px;
 }
@@ -170,8 +170,8 @@ a {
 
 .banner-main{ 
 	width: 100%;
-	float: left;
-	background-image:url(../images/banner.png);
+/* 	float: left;
+ */	background-image:url(../images/banner.png);
 	height: auto;
 	padding-top: 20px;
 	padding-bottom: 226px; 
@@ -302,7 +302,7 @@ a {
 .written_text{
 	width: 100%;
 	float: left;
-	background-color: #072833;
+	background-color: #15457c;
 	height: auto;
 	padding: 20px;
 }
@@ -369,7 +369,7 @@ a {
 .lets_touch_main{
 	width: 100%;
 	float: left;
-	background-color: #072833;
+	background-color: #15457c;
 	padding-top: 40px;
 	padding-bottom: 40PX;
 }
@@ -388,9 +388,9 @@ a {
     font-size: 1rem;
     line-height: 1.5;
     color: #495057;
-    background-color: #072833;
+    background-color: #15457c;
     background-clip: padding-box;
-    border: 1px solid #072833;
+    border: 1px solid #15457c;
     border-radius: 0px;
     border: 0px;
 }
@@ -477,7 +477,7 @@ button.main_bt {
 }
 
 .email-bt{
-	background: #072833;
+	background: #343a40;
     border: none;
     color: #fff;
     width: 100%;
@@ -489,7 +489,7 @@ button.main_bt {
 }
 
 .massage-bt{
-	background: #072833;
+	background: #343a40;
     border: none;
     color: #fff;
     width: 100%;
@@ -558,7 +558,7 @@ button.main_bt {
 }
 
 .date-bt {
-    background: #072833;
+    background: #343a40;
     border: none;
     color: #fff;
     width: 110px;

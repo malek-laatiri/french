@@ -102,7 +102,7 @@
   <?php
   session_start();
   include_once 'conn.php';
-  $sql = "SELECT * FROM postit where receiver_id ='{$_SESSION["user_id"]}'";
+  $sql = "SELECT * FROM postit where receiver_id ='{$_SESSION["user_id"]}' and vue=0 ";
 
 
   foreach ($conn->query($sql) as $row) {
@@ -123,7 +123,7 @@
 
     xhttp.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
-        document.getElementById("demo").innerHTML = this.responseText;
+        location.reload();
       }
     };
     xhttp.open("POST", "changeVue.php", true);

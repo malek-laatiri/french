@@ -1,58 +1,4 @@
-/*--------------------------------------------
 
-    Template Name: srtdash - Bootstrap 4 Admin and Ui Kit
-    Template URI: http://tf.itech-theme.com/srtdash-preview
-    Description: This is Bootstrap 4 Admin Template and Ui Kit
-    Author: cdibrandstudio
-    Author https://themeforest.net/user/cdibrandstudio
-    Version: 1.0
-
-----------------------------------------------
-    
-    CSS INDEX
-    ===================
-  
-    1. Core Css
-    2. Dashboard One
-        2.1 Sidebar Menu
-            2.1.1 Horizontal Menu
-        2.2 Header Area
-        2.3 Page Title Area
-        2.4 Fact Area
-        2.5 Overview
-        2.6 Market value
-        2.7 Live Crypto Price
-        2.8 Trading History
-        2.9 Letest Post
-    3. Dashboard Two
-    4. Dashboard Three
-    5. Bar Chart
-    6. Line Chart
-    7. Pie Chart
-    8. Accroding
-    9. Alert
-   10. Badge
-   11. Button
-   12. Cards
-   13. Dropdown Button
-   14. List Group
-   15. Modal
-   16. Pagination
-   17. Form
-   18. Icons
-   19. Table Basic
-   20. Datatable
-   21. Map
-   22. Invoice
-   23. Login
-   24. Pricing
-   25. 404 Page
-   26. Offset Sidebar
-
------------------------------------------------------------------------------------*/
-
-
-/*------------------------- 1. Core Css -------------------*/
 
 .page-container {
     width: 100%;
@@ -110,8 +56,8 @@
     height: 100vh;
     width: 280px;
     overflow: hidden;
-    background: #303641;
-    box-shadow: 2px 0 32px rgba(0, 0, 0, 0.05);
+    background: #004c6d;
+    box-shadow: #e2e2e2;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
@@ -140,8 +86,8 @@
 
 .sidebar-header {
     padding: 19px 32px 20px;
-    background: #303641;
-    border-bottom: 1px solid #343e50;
+    background: #004c6d;
+    border-bottom: 1px solid #004c6d;
 }
 .sidebar-menu .logo{
     text-align: center;
@@ -209,7 +155,7 @@
 .metismenu >li:hover>a,
 .metismenu >li.active>a {
     color: #fff;
-    background: #343942;
+    background: #648197;
 }
 
 .metismenu li:hover>a,
@@ -717,8 +663,8 @@ ul.breadcrumbs {
             align-items: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    background: -webkit-linear-gradient(left, #8914fe 0%, #8063f5 100%);
-    background: linear-gradient(to right, #8914fe 0%, #8063f5 100%);
+    background: -webkit-linear-gradient(left, #d45087 0%, #d45087 100%);
+    background: linear-gradient(to right, #d45087 0%, #d45087 100%);
     padding: 17px 38px;
     position: relative;
 }
