@@ -42,79 +42,7 @@ session_start();
     <!-- page container area start -->
     <div class="page-container">
         <!-- sidebar menu area start -->
-        <div class="sidebar-menu">
-            <div class="sidebar-header">
-                <div class="logo">
-                    <a href="index.html"><img src="assets/images/icon/logo.png" alt="logo"></a>
-                </div>
-            </div>
-            <div class="main-menu">
-                <div class="menu-inner">
-                    <nav>
-                        <ul class="metismenu" id="menu">
-                            <li>
-                                <a href="javascript:void(0)" aria-expanded="true"><i
-                                        class="ti-dashboard"></i><span>Blog</span></a>
-                                <ul class="collapse">
-                                    <li><a href="createblog.php">Create Blog</a></li>
-                                    <li><a href="readBlog.php">Read all Blog posts</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" aria-expanded="true"><i
-                                        class="ti-layout-sidebar-left"></i><span>PostIt
-                                    </span></a>
-                                <ul class="collapse">
-                                    <li><a href="createpostit.php">New Post it</a></li>
-                                    <li><a href="readPostit.php">my current post it</a></li>
-                                    <li><a href="readAllPostit.php">All my post it's</a></li>
-
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" aria-expanded="true"><i
-                                        class="ti-pie-chart"></i><span>Meeting</span></a>
-                                <ul class="collapse">
-                                    <li><a href="createReunion.php">new meeting</a></li>
-                                    <li><a href="readReunion.php">all meetings</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" aria-expanded="true"><i
-                                        class="ti-palette"></i><span>Compte'rendu</span></a>
-                                <ul class="collapse">
-                                    <li><a href="createCompteRendu.php">new Compte rendu</a></li>
-
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-slice"></i><span>note
-                                        Service</span></a>
-                                <ul class="collapse">
-                                    <li><a href="createnoteService.php">new note service</a></li>
-                                    <li><a href="readNoteService.php">all note service</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="fa fa-table"></i>
-                                    <span>BrianStorming</span></a>
-                                <ul class="collapse">
-                                    <li><a href="createBrainstorming.php">Post new ideas</a></li>
-                                    <li><a href="readBrainstorming.php">all ideas</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="createNewsletter.php"><i class="ti-map-alt"></i> <span>news letter</span></a>
-                            </li>
-                            <li class="active"><a href="createEmail.php"><i class="ti-receipt active"></i>
-                                    <span>Emailing</span></a></li>
-
-
-
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
+        <?php include_once 'sidebar.php'?>
         <!-- sidebar menu area end -->
         <!-- main content area start -->
         <div class="main-content">
@@ -141,31 +69,8 @@ session_start();
             </div>
             <!-- header area end -->
             <!-- page title area start -->
-            <div class="page-title-area">
-                <div class="row align-items-center">
-                    <div class="col-sm-6">
-                        <div class="breadcrumbs-area clearfix">
-                            <h4 class="page-title pull-left">Dashboard</h4>
-                            <ul class="breadcrumbs pull-left">
-                                <li><a href="index.html">Home</a></li>
-                                <li><span>Dashboard</span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 clearfix">
-                        <div class="user-profile pull-right">
-                            <img class="avatar user-thumb" src="assets/images/author/avatar.png" alt="avatar">
-                            <h4 class="user-name dropdown-toggle" data-toggle="dropdown">
-                                <?php echo $_SESSION["user_username"]?><i class="fa fa-angle-down"></i></h4>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Message</a>
-                                <a class="dropdown-item" href="#">Settings</a>
-                                <a class="dropdown-item" href="#">Log Out</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php include 'title.php' ?>
+
             <!-- page title area end -->
             <div class="main-content-inner">
                 <div class="col-12 mt-5">

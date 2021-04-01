@@ -17,7 +17,8 @@ session_start();
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/slicknav.min.css">
     <!-- amchart css -->
-    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css"
+        media="all" />
     <!-- others css -->
     <link rel="stylesheet" href="assets/css/typography.css">
     <link rel="stylesheet" href="assets/css/default-css.css">
@@ -50,14 +51,16 @@ session_start();
                     <nav>
                         <ul class="metismenu" id="menu">
                             <li>
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-dashboard"></i><span>Blog</span></a>
+                                <a href="javascript:void(0)" aria-expanded="true"><i
+                                        class="ti-dashboard"></i><span>Blog</span></a>
                                 <ul class="collapse">
                                     <li><a href="createblog.php">Create Blog</a></li>
                                     <li><a href="readBlog.php">Read all Blog posts</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-layout-sidebar-left"></i><span>PostIt
+                                <a href="javascript:void(0)" aria-expanded="true"><i
+                                        class="ti-layout-sidebar-left"></i><span>PostIt
                                     </span></a>
                                 <ul class="collapse">
                                     <li><a href="createpostit.php">New Post it</a></li>
@@ -67,14 +70,16 @@ session_start();
                                 </ul>
                             </li>
                             <li class="active">
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-pie-chart"></i><span>Meeting</span></a>
+                                <a href="javascript:void(0)" aria-expanded="true"><i
+                                        class="ti-pie-chart"></i><span>Meeting</span></a>
                                 <ul class="collapse">
                                     <li class="active"><a href="createReunion.php">new meeting</a></li>
                                     <li><a href="readReunion.php">all meetings</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="javascript:void(0)" aria-expanded="true"><i class="ti-palette"></i><span>Compte'rendu</span></a>
+                                <a href="javascript:void(0)" aria-expanded="true"><i
+                                        class="ti-palette"></i><span>Compte'rendu</span></a>
                                 <ul class="collapse">
                                     <li><a href="createCompteRendu.php">new Compte rendu</a></li>
 
@@ -128,36 +133,13 @@ session_start();
                         </div>
                     </div>
                     <!-- profile info & task notification -->
-                    
+
                 </div>
             </div>
             <!-- header area end -->
             <!-- page title area start -->
-            <div class="page-title-area">
-                <div class="row align-items-center">
-                    <div class="col-sm-6">
-                        <div class="breadcrumbs-area clearfix">
-                            <h4 class="page-title pull-left">Dashboard</h4>
-                            <ul class="breadcrumbs pull-left">
-                                <li><a href="index.html">Home</a></li>
-                                <li><span>Dashboard</span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 clearfix">
-                        <div class="user-profile pull-right">
-                            <img class="avatar user-thumb" src="assets/images/author/avatar.png" alt="avatar">
-                            <h4 class="user-name dropdown-toggle" data-toggle="dropdown">
-                                <?php echo $_SESSION["user_username"] ?><i class="fa fa-angle-down"></i></h4>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Message</a>
-                                <a class="dropdown-item" href="#">Settings</a>
-                                <a class="dropdown-item" href="#">Log Out</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php include 'title.php' ?>
+
             <!-- page title area end -->
             <div class="main-content-inner">
                 <div class="col-12 mt-5">
@@ -196,7 +178,8 @@ session_start();
                                     </select>
                                 </div>
 
-                                <div class="form-group"> <input type="submit" value="Done" class="btn btn-primary mt-4 pr-4 pl-4">
+                                <div class="form-group"> <input type="submit" value="Done"
+                                        class="btn btn-primary mt-4 pr-4 pl-4">
                                 </div>
 
 
@@ -217,7 +200,7 @@ session_start();
     </div>
     <!-- page container area end -->
     <!-- offset area start -->
-   
+
     <!-- offset area end -->
     <!-- jquery latest version -->
     <script src="assets/js/vendor/jquery-2.2.4.min.js"></script>
@@ -236,8 +219,8 @@ session_start();
     <!-- start zingchart js -->
     <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
     <script>
-        zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
-        ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9", "ee6b7db5b51705a13dc2339db3edaf6d"];
+    zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
+    ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9", "ee6b7db5b51705a13dc2339db3edaf6d"];
     </script>
     <!-- all line chart activation -->
     <script src="assets/js/line-chart.js"></script>
