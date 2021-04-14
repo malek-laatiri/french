@@ -107,10 +107,12 @@
 
   foreach ($conn->query($sql) as $row) {
     echo "<li class='postli'>";
+
     echo   "<a href='.' contenteditable>";
+    echo '<button type="button" onclick="vue(this)" id="' . $row["postit_id"] . '"> X </button>';
+
     echo   "<h2>" . $row["postit_title"] . "</h2>";
     echo    "<p>" . $row["postit_content"] . "</p>";
-    echo '<button type="button" onclick="vue(this)" id="' . $row["postit_id"] . '">Click Me!</button>';
 
     echo   "</a>";
     echo "</li>";

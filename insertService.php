@@ -1,5 +1,8 @@
 <?php
+require_once ('vendor/dompdf/dompdf/autoload.inc.php');
 include 'conn.php';
+require 'vendor/autoload.php';
+use Dompdf\Dompdf;
 
 $upload_dir = "uploads/";
 $img = $_POST['hidden_data'];
@@ -59,3 +62,15 @@ echo "<br>";
 echo "signature ";
 
 echo "<img src='" . $file . "'>";
+// instantiate and use the dompdf class
+$dompdf = new Dompdf();
+$dompdf->loadHtml('hello world');
+
+// (Optional) Setup the paper size and orientation
+$dompdf->setPaper('A4', 'landscape');
+
+// Render the HTML as PDF
+$dompdf->render();
+ob_end_clean();
+// Output the generated PDF to Browser
+$dompdf->stream();

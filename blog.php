@@ -75,10 +75,12 @@
     	<div class="container">
     		<div class="row">
     			<div class="col-sm-12">
-    				<h1 class="blog_text">Our Blog</h1>
+    				<h1 class="blog_text">Notre Blog</h1>
     			</div>
     	    </div>
     	    <div class="blog_section_2">
+            <?php include 'selectBlog.php'?>
+
     	    	<div class="row">
     	    		<div class="col-sm-4">
     	    			<div class="section_1">
@@ -137,7 +139,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h1 class="touch_text">Contact Us</h1>
+                    <h1 class="touch_text">Posez nous toutes vos questions</h1>
                 </div>
             </div>
         </div>

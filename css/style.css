@@ -170,8 +170,11 @@ a {
 
 .banner-main{ 
 	width: 100%;
-/* 	float: left;
- */	background-image:url(../images/banner.png);
+ 	float: left;
+ 	background-image:url(../images/banner.png);
+	 background-position: center; /* Center the image */
+	 background-repeat: no-repeat; /* Do not repeat the image */
+	 background-size: cover; /* Resize the background image to cover the entire container */
 	height: auto;
 	padding-top: 20px;
 	padding-bottom: 226px; 
