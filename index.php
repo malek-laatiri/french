@@ -34,7 +34,7 @@
 <body>
 	<div class="header_main">
 		<div class="container">
-			<div class="logo"><a href="index.php"><img src="images/logo.png"></a></div>
+			<div class="logo"><a href="index.php"><img style="width: 100px;" src="assets/images/icon/logo.png"></a></div>
 		</div>
 	</div>
 	</div>
@@ -79,7 +79,8 @@
                 <div class="carousel-item active">
     		    <div class="titlepage-h1">
     	        <h1 class="bnner_title">Welcome To<br>
-    	        <span style="color: #10b5fa">Content Writing Services</span></h1>
+    	        <span style="color: #10b5fa">BUSINESS INTELLIGENCE
+</span></h1>
     	        <p class="long_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking </p>
     		    </div>
     		    <div class="btn_main">
@@ -89,7 +90,7 @@
     <div class="carousel-item">
     		<div class="titlepage-h1">
     	       <h1 class="bnner_title">Welcome To<br>
-    	       <span style="color: #10b5fa">Content Writing Services</span></h1>
+    	       <span style="color: #10b5fa">PORTAIL ENTREPRISE</span></h1>
     	       <p class="long_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking </p>
     		</div>
     		<div class="btn_main">
@@ -99,7 +100,8 @@
     <div class="carousel-item">
     		<div class="titlepage-h1">
     	       <h1 class="bnner_title">Welcome To<br>
-    	       <span style="color: #10b5fa">Content Writing Services</span></h1>
+    	       <span style="color: #10b5fa">SOLUTIONS SOFTWARE
+</span></h1>
     	       <p class="long_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking </p>
     		</div>
     		<div class="btn_main">
@@ -122,7 +124,7 @@
     	<div class="container">
     		<div class="creative_taital">
     			<h1 class="creative_text">Creative Content Writing Services</h1>
-    			<p style="color: #050000; text-align: center;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infanc</p>
+    			<p style="color: #050000; text-align: center;">La transformation numérique,  guide vos démarches dans un processus qui consiste, à intégrer pleinement les technologies digitales dans l’ensemble de ses activités. Une mutation annoncée qui peut soulever vos peurs et interroger votre entreprise en profondeur. Il est temps de donner du sens à vos projets grâce à notre expertise dans cette transformation digitale prometteuse.</p>
     			<div class="btn_main">
     			    <button type="button" class="btn btn-dark btn-lg">Get started</button>
     		    </div>
@@ -136,15 +138,15 @@
     		    			<div class="col-md-6">
     		    				<div class="written_text">
     		    					<div class="like_icon"><img src="images/like-icon.png"></div>
-    		    					<h1 class="written_text">Written with Love</h1>
-    		    					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, </p>
+    		    					<h1 class="written_text">SOLUTIONS SOFTWARE</h1>
+    		    					<p>Toutes les compétences digitales réunies au sein d'une même agence</p>
     		    				</div>
     		    			</div>
     		    			<div class="col-md-6">
     		    				<div class="written_text">
     		    					<div class="like_icon"><img src="images/fast-forword-icon.png"></div>
-    		    					<h1 class="written_text">Fast Turnaround</h1>
-    		    					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, </p>
+    		    					<h1 class="written_text">ERP / CRM</h1>
+    		    					<p>fidéliser vos clients en leur offrant le meilleur service grâce à un ensemble de techniques destiné à capter, traiter, analyser les informations relatives à vos prospects</p>
     		    				</div>
     		    			</div>
     		    		</div>
@@ -156,15 +158,15 @@
     		    			<div class="col-md-6">
     		    				<div class="written_text">
     		    					<div class="like_icon"><img src="images/design-icon.png"></div>
-    		    					<h1 class="written_text">Up to Date</h1>
-    		    					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, </p>
+    		    					<h1 class="written_text">BUSINESS INTELLIGENCE</h1>
+    		    					<p>collecter, consolider, modéliser et restituer les données de votre entreprise pour mieux gérer vos décisions et avoir une vue d’ensemble sur vos activités </p>
     		    				</div>
     		    			</div>
     		    			<div class="col-md-6">
     		    				<div class="written_text">
     		    				  <div class="like_icon"><img src="images/writing-icon.png"></div>
-    		    					<h1 class="written_text">Premium Content</h1>
-    		    					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, </p>
+    		    					<h1 class="written_text">PORTAIL ENTREPRISE</h1>
+    		    					<p>Toutes les ressources et les données du système d'information sont regroupées au sein d'une interface unique </p>
     		    				</div>
     		    			</div>
     		    		</div>
