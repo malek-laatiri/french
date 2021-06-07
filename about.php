@@ -34,7 +34,7 @@
 <body class="about_page">
 	<div class="header_main">
 		<div class="container">
-			<div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+			<div class="logo"><a href="index.php"><img style="width: 100px;" src="assets/images/icon/logo.png">
 		</div>
 	</div>
 	</div>
@@ -52,15 +52,15 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-auto">
                                <li class="nav-item active">
-                                <a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a> </li>
+                                <a class="nav-link" href="index.php">HOME<span class="sr-only">(current)</span></a> </li>
                                <li class="nav-item">
-                                <a class="nav-link" href="about.html">ABOUT</a></li>
+                                <a class="nav-link" href="about.php">A propos</a></li>
                                <li class="nav-item">
-                                <a class="nav-link" href="service.html">SERVICES</a></li>
+                                <a class="nav-link" href="service.php">SERVICES</a></li>
                                <li class="#" href="#">
-      	                        <a class="nav-link" href="blog.html">BLOG</a></li>
+      	                        <a class="nav-link" href="blog.php">BLOG</a></li>
                                <li class="nav-item" href="#">
-      	                        <a class="nav-link" href="contact.html">CONTACT</a></li>
+      	                        <a class="nav-link" href="contact.php">CONTACT</a></li>
                                <li class="last"><a href="#"><img src="images/search-icon.png" alt="icon"></a></li>
                             </ul>
                         </div>
@@ -75,10 +75,15 @@
     <div class="services_main">
     	<div class="container">
     		<div class="creative_taital">
-    			<h1 class="creative_text">Creative Content Writing Services</h1>
-    			<p style="color: #050000; text-align: center;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infanc</p>
-    			<div class="btn_main">
-    			    <button type="button" class="btn btn-dark btn-lg">Get started</button>
+    			<h1 class="creative_text">Qui est Libertech</h1>
+    			<p style="color: #050000; text-align: center;">
+                Libertech est un spécialiste des solutions logicielles et digitales,Nos solutions professionnelles sont conçues pour relever les défis de la transformation du secteur des solutions informatiques.
+                qui répond à l’évolution des besoins numériques , Libertech propose des solutions sur mesure basées sur nos propres outils, notre expérience et notre expertise professionnelle.
+                Notre stratégie fondée sur la proposition de solutions digitales efficaces et évolutives est mise en œuvre en prenant en considération les aspects multiculturels, sociaux et environnementaux et en mettant l’accent sur le développement des talents.
+                La vision à long terme de toute l'equipe permet de travailler et de produire de l’innovation en garantissant la stabilité et la rentabilité.
+
+
+</p>    			<div class="btn_main">
     		    </div>
     		</div>    
     	</div>
@@ -88,7 +93,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h1 class="touch_text">Contact Us</h1>
+                    <h1 class="touch_text">Contactez Nous</h1>
                 </div>
             </div>
         </div>

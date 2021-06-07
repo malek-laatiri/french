@@ -11,7 +11,7 @@ foreach ($conn->query($sql) as $row) {
     echo '<div class="col-lg-6 mt-5">';
     echo '<div class="card">';
     echo '<div class="card-body">';
-    echo '<h4 class="header-title">Idea</h4>';
+    echo '<h4 class="header-title">Idée</h4>';
     echo "<p>{$row["brainstorming_content"]}</p>";
     echo "<div class='my-rating' id={$row["brainstorming_id"]}></div>";
 

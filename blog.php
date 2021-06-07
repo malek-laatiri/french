@@ -34,7 +34,8 @@
 <body>
 	<div class="header_main">
 		<div class="container">
-			<div class="logo"><a href="index.html"><img src="images/logo.png"></a></div>
+			<div class="logo"><a href="index.html"><img style="width: 100px;" src="assets/images/icon/logo.png">
+            
 		</div>
 	</div>
 	</div>
@@ -95,7 +96,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h1 class="touch_text">Posez nous toutes vos questions</h1>
+                    <h1 class="touch_text">Contactez Nous</h1>
                 </div>
             </div>
         </div>

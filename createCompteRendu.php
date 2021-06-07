@@ -73,6 +73,28 @@ session_start();
             <div class="card">
             <div class="card-body">
                             <!-- changes -->
+                            <div class="main-content-inner">
+                <div class="main-content-inner">
+                    <div class="col-12 mt-5">
+                        <div class="card">
+                            <div class="card-body">
+                                <form action="compte.html" method="post">
+                                    <div class="form-group">
+                                        <label for="title" class="col-form-label">Titre:</label>
+                                        <input type="text" name="title" id="example-text-input" class="form-control">
+                                    </div>
+                                    <div class="form-group"> <label for="title" class="col-form-label">
+                                            Contenue:</label>
+                                        <textarea class="ckeditor" name="editor"></textarea>
+                                    </div>
+                                    <div class="form-group"> <input type="submit" value="Add Blog" class="btn btn-primary mt-4 pr-4 pl-4">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             </div>
             </div>

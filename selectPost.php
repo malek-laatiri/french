@@ -6,8 +6,7 @@
 
   p {
     font-family: 'Schoolbell', arial, serif;
-    ;
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: #002b59;
   }
 
@@ -27,8 +26,8 @@
     color: #000;
     background: #fbf49b;
     display: block;
-    height: 10em;
-    width: 10em;
+    height: 20em;
+    width: 20em;
     padding: 1em;
     box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
     transform: rotate(-6deg);
