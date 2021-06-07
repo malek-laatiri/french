@@ -25,13 +25,13 @@ try {
         $mail->SMTPSecure = "tls";
         $mail->Port       = 587;
         $mail->Host       = "smtp.gmail.com";
-        $mail->Username   = "testagence6@gmail.com";
-        $mail->Password   = "adAXvAGmav7uDsH";
+        $mail->Username   = "XXXXXXXXXX@gmail.com";
+        $mail->Password   = "XXXXXXXXXX";
 
         $mail->IsHTML(true);
         $mail->AddAddress($to, "recipient-name");
-        $mail->SetFrom("testagence6@gmail.com", "from-name");
-        $mail->AddReplyTo("testagence6@gmail.com", "reply-to-name");
+        $mail->SetFrom("XXXXXXXXXX@gmail.com", "from-name");
+        $mail->AddReplyTo("XXXXXXXXXX@gmail.com", "reply-to-name");
         $mail->Subject = $subject;
         $mail->MsgHTML($editor);
 
